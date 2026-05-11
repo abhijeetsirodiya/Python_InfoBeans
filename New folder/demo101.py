@@ -1298,7 +1298,8 @@ while i<=n:
         print(*,end=" ")
         j=j+1
     i=i+1
-'''
+
+    
 n=int(input("Enter n="))
 i=n
 while i>=1:
@@ -1309,7 +1310,7 @@ while i>=1:
         dec-=1
     i+=1
 
-'''
+
 
 
 
@@ -1338,12 +1339,126 @@ while i<=n:
         else:
             print(j,end=" ")
 
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+
+n=int(input("Enter n="))
+i=1
+while i<=n:
+    print()
+    j=1
+    while j<=i:
+        print("*",end=" ")
+        j+=1
+    i+=1
+
+
+n=int(input("Enter n="))
+i=n
+while i>=1:
+    print()
+    j=i
+    while j>=1:
+        print(j,end=" ")
+        j-=1
+    i-=1
+
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+n=int(input("Enter n="))
+i=n
+while i>=1:
+    print()
+    j=i
+    while j>=1:
+        print("*",end=" ")
+        j-=1
+    i-=1
+
+1 2 3 4 5 
+2 3 4 5 
+3 4 5 
+4 5 
+5 
+
+n=int(input("Enter n="))
+i=1
+while i<=n:
+    print()
+    j=i
+    while j<=n:
+        print(j,end=" ")
+        j+=1
+    i+=1
+
+    
+1 1 1 1 1 
+2 2 2 2 
+3 3 3 
+4 4 
+5 
+
+n=int(input("Enter n="))
+i=1
+while i<=n:
+    print()
+    j=i
+    while j<=n:
+        print(i,end=" ")
+        j+=1
+    i+=1
+
+
+n=int(input("Enter n="))
+i=1
+while i<=n:
+    print()
+    j=1
+    while j<=i:
+        if i%2==0:
+            print("*",end=" ")
+        else:
+            print(j,end=" ")
+            j+=1
+    i+=1
+
+1 * * * * * * * * * * 1 
+1 2 * * * * * * * * 2 1 
+1 2 3 * * * * * * 3 2 1 
+1 2 3 4 * * * * 4 3 2 1 
+1 2 3 4 5 * * 5 4 3 2 1 
+1 2 3 4 5 6 6 5 4 3 2 1 
+n=int(input("Enter n="))
+i=1
+while i<=n:
+    print()
+    j=1
+    while j<=i:
+        print(j,end=" ")
+        j+=1
+    s=1
+    while s<=(n-i)*2:
+        print("*",end=" ")
+        s+=1
+    k=i
+    while k>=1:
+        print(k,end=" ")
+        k-=1
+    i+=1
 '''
-
-
-
-
-
-
-
+n=int(input("Enter n="))
+i=1
+while i<=n:
+    print()
+    s=1
+    while s<=(n-i):
+        print("1",end=" ")
+        s+=1
+    
 
